@@ -22,9 +22,10 @@ h3{
   padding-bottom: 20px;
   margin-bottom: 0;
   margin-top: 0;
-  color: pink;
+  color: black;
   font-family: 'Hi Melody', cursive;
-  font-weight: 500;
+  font-size: 140%
+  margin-top: 0;
 }
 
 #index {
@@ -41,7 +42,7 @@ ol{
 }
 p{
     font-family: 'Gaegu', cursive;
-    font-weight: 300;
+    font-size: 90%
 }
 #index ol{
   margin-bottom: 0;
