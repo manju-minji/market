@@ -32,6 +32,10 @@ ol{
   font-family: 'Gamja Flower', cursive;
   font-weight: 300;
 }
+p{
+    font-family: 'Gaegu', cursive;
+    font-weight: 300;
+}
 #index ol{
   margin-bottom: 0;
   color: black;
@@ -43,6 +47,7 @@ ol{
 li{
   font-size: 110%
 }
+
 
 
 a{
@@ -76,9 +81,4 @@ a{
     border-right: none;
     border-bottom: 1px dashed coral;
   }
-}
-
-p{
-    font-family: 'Gaegu', cursive;
-    font-weight: 300;
 }
