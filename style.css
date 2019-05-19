@@ -17,16 +17,28 @@ h2{
   font-weight: 600;
   border-bottom: 1px dotted coral;
 }
-#index ol{
-  margin-bottom: 0;
-  color: black;
-  font-family: 'Gamja Flower', cursive;
-  font-weight: 300;
-}
+
 #index {
   text-align: center;
   list-style-position:inside;
 }
+#grid{
+  display: grid;
+  grid-template-columns: 220px 1fr;
+}
+ol{
+  font-family: 'Gamja Flower', cursive;
+  font-weight: 300;
+}
+#index ol{
+  margin-bottom: 0;
+  color: black;
+}
+#grid ol{
+  border-right: 1px dashed coral;
+}
+
+
 a{
   text-decoration: none;
   color: black;
@@ -47,16 +59,6 @@ a{
   }
 }
 
-
-#grid{
-  display: grid;
-  grid-template-columns: 220px 1fr;
-}
-#grid ol{
-  border-right: 1px dashed coral;
-}
-
-
 @media (max-width : 600px){
   #grid{
     display : block;
@@ -68,4 +70,9 @@ a{
     border-right: none;
     border-bottom: 1px dashed coral;
   }
+}
+
+p{
+    font-family: 'Gaegu', cursive;
+    font-weight: 300;
 }
