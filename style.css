@@ -24,7 +24,7 @@ h3{
   margin-top: 0;
   color: black;
   font-family: 'Hi Melody', cursive;
-  font-size: 140%
+  font-size: 160%
   margin-top: 0;
 }
 
@@ -79,7 +79,22 @@ a{
   }
 }
 
-@media (max-width : 600px){
+@media (max-width : 400px){
+  h1{
+    font-size: 300%
+  }
+  h2, h3{
+    font-size: 220%
+  }
+  ol{
+    font-size: 170%
+  }
+  p{
+    font-size: 130%
+  }
+  i{
+    font-size: 120%
+  }
   #grid{
     display : block;
   }
