@@ -6,6 +6,7 @@ h1{
   font-family: 'Gaegu', cursive;
   font-weight: 700;
   text-decoration: none;
+  font-size: 130%
 }
 h2{
   text-align: center;
@@ -16,6 +17,7 @@ h2{
   font-family: 'Hi Melody', cursive;
   font-weight: 600;
   border-bottom: 1px dotted coral;
+  font-size: 120%
 }
 
 #index {
@@ -36,10 +38,10 @@ ol{
 }
 #grid ol{
   border-right: 1px dashed coral;
-  font-size: 130%
+  font-size: 110%
 }
 li{
-  font-size: 130%
+  font-size: 110%
 }
 
 
