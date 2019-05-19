@@ -79,22 +79,7 @@ a{
   }
 }
 
-@media (max-width : 900px){
-  h1{
-    font-size: 300%
-  }
-  h2, h3{
-    font-size: 220%
-  }
-  ol{
-    font-size: 170%
-  }
-  p{
-    font-size: 130%
-  }
-  i{
-    font-size: 120%
-  }
+@media (max-width : 300px){
   #grid{
     display : block;
   }
