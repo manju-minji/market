@@ -5,6 +5,7 @@ h1{
   color: #FF8200;
   font-family: 'Gaegu', cursive;
   font-weight: 700;
+  text-decoration: none;
 }
 h2{
   text-align: center;
@@ -16,7 +17,7 @@ h2{
   font-weight: 600;
   border-bottom: 1px dotted coral;
 }
-ol{
+#index ol{
   margin-bottom: 0;
   color: black;
   font-family: 'Gamja Flower', cursive;
@@ -34,7 +35,6 @@ a{
   animation-duration: 2s;
   animation-name: slidein;
 }
-
 @keyframes slidein {
   from {
     margin-left: 100%;
@@ -46,6 +46,8 @@ a{
     width: 100%;
   }
 }
+
+
 #grid{
   display: grid;
   grid-template-columns: 220px 1fr;
@@ -53,6 +55,8 @@ a{
 #grid ol{
   border-right: 1px dashed coral;
 }
+
+
 @media (max-width : 600px){
   #grid{
     display : block;
