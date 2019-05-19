@@ -44,6 +44,9 @@ p{
     font-family: 'Gaegu', cursive;
     font-size: 90%
 }
+i{
+  font-weight: lighter;
+}
 #index ol{
   margin-bottom: 0;
   color: black;
