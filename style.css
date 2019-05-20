@@ -54,15 +54,12 @@ i{
 #grid ol{
   border-right: 1px dashed coral;
 }
-li{
-}
-
-
 
 a{
   text-decoration: none;
   color: black;
 }
+
 #main_animation{
   animation-duration: 2s;
   animation-name: slidein;
@@ -79,7 +76,7 @@ a{
   }
 }
 
-@media (max-width : 300px){
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   #grid{
     display : block;
   }
@@ -91,3 +88,16 @@ a{
     border-bottom: 1px dashed coral;
   }
 }
+
+/**@media (max-width : 300px){
+  #grid{
+    display : block;
+  }
+  #grid ol{
+    text-align: center;
+    list-style-position: inside;
+    padding: 10px;
+    border-right: none;
+    border-bottom: 1px dashed coral;
+  }
+}**/
