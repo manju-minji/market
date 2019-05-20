@@ -51,6 +51,11 @@ h3{
     background-color: #01DFD7;
 }
 
+#topbut{
+  font-family: 'East Sea Dokdo', cursive;
+  font-size: 130%
+}
+
 ol{
   font-family: 'Gamja Flower', cursive;
   font-size: 120%
