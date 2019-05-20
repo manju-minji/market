@@ -79,7 +79,7 @@ a{
   }
 }
 
-@media (min-width : 500px){
+@media (max-width : 300px){
   #grid{
     display : block;
   }
