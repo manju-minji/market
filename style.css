@@ -32,10 +32,7 @@ h3{
   text-align: center;
   list-style-position:inside;
 }
-#grid{
-  display: grid;
-  grid-template-columns: 220px 1fr;
-}
+
 ol{
   font-family: 'Gamja Flower', cursive;
   font-size: 120%
@@ -51,8 +48,17 @@ i{
   margin-bottom: 0;
   color: black;
 }
+
+
+#grid{
+  display : block;
+}
 #grid ol{
-  border-right: 1px dashed coral;
+  text-align: center;
+  list-style-position: inside;
+  padding: 10px;
+  border-right: none;
+  border-bottom: 1px dashed coral;
 }
 
 a{
@@ -76,7 +82,7 @@ a{
   }
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/*@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   #grid{
     display : block;
   }
@@ -86,6 +92,16 @@ a{
     padding: 10px;
     border-right: none;
     border-bottom: 1px dashed coral;
+  }
+}*/
+
+@media (min-width:768px){
+  #grid{
+    display: grid;
+    grid-template-columns: 220px 1fr;
+  }
+  #grid ol{
+    border-right: 1px dashed coral;
   }
 }
 
