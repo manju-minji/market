@@ -2,26 +2,30 @@ body{
   margin:0;
   padding:0;
   height:100%;
-  background-color: #01DFD7;
+  background-color: #FFCCCC;
 }
 h1{
-  text-align: center;
   padding-bottom: 10px;
   margin-bottom: 0;
-  color: #FF8200;
+  color: #FFD700;
   font-family: 'Gaegu', cursive;
   text-decoration: none;
-  font-size: 230%
+  font-size: 300%;
+  background-image: url("mindeurae_rot.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-right: 45px;
+  display: inline;
 }
 h2{
-  text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   margin-bottom: 0;
-  margin-top: 0;
-  color: hotpink;
+  margin-top: 10px;
+  color: red;
   font-family: 'Hi Melody', cursive;
-  border-bottom: 1px dotted coral;
-  font-size: 180%
+  border-bottom: 6px dotted #009966;
+  font-size: 240%
 }
 h3{
   text-align: center;
@@ -30,16 +34,36 @@ h3{
   margin-top: 0;
   color: black;
   font-family: 'Hi Melody', cursive;
-  font-size: 160%
+  font-size: 200%
   margin-top: 0;
 }
 
-#index {
+header{
+  margin-top: 10px;
   text-align: center;
-  list-style-position:inside;
 }
 
-#footer {
+/*header{
+  text-align: center;
+  background-image: url("mindeurae.png");
+  border-bottom: 6px dotted coral;
+}
+
+h1{
+  color: #FF8200;
+  font-family: 'Gaegu', cursive;
+  text-decoration: none;
+  font-size: 230%;
+}
+h2{
+  color: hotpink;
+  font-family: 'Hi Melody', cursive;
+  font-size: 180%
+}*/
+
+
+
+footer {
     position:absolute;
     bottom:0;
     width:100%;
@@ -48,7 +72,12 @@ h3{
     background-position: bottom;
     background-repeat: repeat-x;
     background-size: 100px;
-    background-color: #01DFD7;
+    background-color: #FFCCCC;
+}
+
+#index {
+  text-align: center;
+  list-style-position:inside;
 }
 
 #topbut{
@@ -58,7 +87,7 @@ h3{
 
 ol{
   font-family: 'Gamja Flower', cursive;
-  font-size: 120%
+  font-size: 160%
 }
 p{
     font-family: 'Gaegu', cursive;
