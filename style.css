@@ -31,11 +31,11 @@ h2{
   font-family: 'Hi Melody', cursive;
   /*border-bottom: 6px dotted #009966;*/
   font-size: 200%;
-  background-image: url("img/straw_char3.png");
+  background-image: url("img/straw_char1.png");
   background-position: left;
   background-repeat: no-repeat;
   background-size: contain;
-  padding-left: 30px;
+  padding-left: 25px;
   display: inline;
 }
 h3{
