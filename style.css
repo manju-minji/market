@@ -212,4 +212,8 @@ a{
   #minji_img{
     width: 30%
   }
+  #timelapse_mp4{
+    width: 560;
+    height: 315;
+  }
 }
