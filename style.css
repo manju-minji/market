@@ -71,8 +71,9 @@ footer {
 #topbut{
   font-family: 'Hi Melody', cursive;
   font-size: 70%;
-  border-radius:10px;
-  padding: 10px;
+  border-radius:8px;
+  padding-right:8px;
+  padding-left: 8px;
   padding-top: 5px;
   padding-bottom: 5px;
   background-color: 	#FFD700;
@@ -141,6 +142,11 @@ a{
 @media (min-width:768px){
   #topbut{
     font-size: 130%;
+    border-radius:10px;
+    padding-right:10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
   h1{
     font-size: 300%;
@@ -156,16 +162,3 @@ a{
     border-right: 3px dashed coral;
   }
 }
-
-/**@media (max-width : 300px){
-  #grid{
-    display : block;
-  }
-  #grid ol{
-    text-align: center;
-    list-style-position: inside;
-    padding: 10px;
-    border-right: none;
-    border-bottom: 1px dashed coral;
-  }
-}**/
