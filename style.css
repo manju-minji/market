@@ -81,7 +81,8 @@ footer {
 }
 
 #main_content li{
-  font-size: 150%
+  font-size: 150%;
+  color: 	#4169E1;
 }
 
 #main_content ol{
@@ -92,17 +93,17 @@ ol{
   font-family: 'Gamja Flower', cursive;
   font-size: 160%
 }
-p{
-    font-family: 'Gaegu', cursive;
-    font-size: 90%
-}
 i{
-  font-size:80%
+  font-size:85%
 }
 
 #index ol{
   margin-bottom: 0;
   color: black;
+}
+
+#copyright{
+  font-size: 75%
 }
 
 
@@ -160,5 +161,44 @@ a{
   }
   #grid ol{
     border-right: 3px dashed coral;
+  }
+  #sugar_img{
+    width: 20%
+  }
+  #minco_img{
+    width: 30%
+  }
+  #dry_gif{
+    width: 35%
+  }
+  #dry2_img{
+    width: 20%
+  }
+  #bootle_img{
+    width: 30%
+  }
+  #drop_gif{
+    width: 30%
+  }
+  #dry3_img{
+    width: 30%
+  }
+  #dry4_img{
+    width: 30%
+  }
+  #straw_sugar_img{
+    width: 30%
+  }
+  #finish1_img{
+    width: 30%
+  }
+  #finish2_img{
+    width: 30%
+  }
+  #narae_img{
+    width: 30%
+  }
+  #minji_img{
+    width: 30%
   }
 }
