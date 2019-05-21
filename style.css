@@ -216,4 +216,13 @@ a{
     width: 560;
     height: 315;
   }
+  #map_img{
+    width: 50%
+  }
+  #pinkposter_img{
+    width: 50%
+  }
+  #blueposter_img{
+    width: 50%
+  }
 }
