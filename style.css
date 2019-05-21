@@ -70,13 +70,16 @@ footer {
 
 #topbut{
   font-family: 'Hi Melody', cursive;
-  font-size: 130%;
+  font-size: 70%;
   border-radius:10px;
   padding: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
   background-color: 	#FFD700;
   border: 1px dotted blue;
+  position:fixed;
+  bottom:5px;
+  right:10px;
 }
 
 #main_content li{
@@ -139,6 +142,9 @@ a{
 }
 
 @media (min-width:768px){
+  #topbut{
+    font-size: 130%;
+  }
   h1{
     font-size: 300%;
   }
